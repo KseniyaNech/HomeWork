@@ -19,11 +19,11 @@ System.Console.Write(" Первые три символа первого мас�
 
 System.Console.Write("[");
 string[] newArray = new string[arrStrings.Length];
-    for (int i = 0; i <= 3; i++)
+    for (int i = 0; i <= 2; i++)
     {
         newArray[i] = arrStrings[i];
         Console.Write($"{newArray[i]}");
-           if (i < arrStrings.Length - 3)
+           if (i < arrStrings.Length - 4)
             System.Console.Write(", ");
     }
 System.Console.Write("]");
